@@ -1,0 +1,15 @@
+Tomcat access url:
+
+http://34.227.178.247:32271/
+
+mongodb access url -
+
+http://34.227.178.247:30488/ ( it gives response as - It looks like you are trying to access MongoDB over HTTP on the native driver port.)
+
+Since version 2.6: MongoDB disables the HTTP interface by default.
+
+Update
+
+HTTP Interface and REST API
+
+MongoDB 3.6 removes the deprecated HTTP interface and REST API to MongoDB.
